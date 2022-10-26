@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #eaeaea;
+    color: #333;
+}
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    background-color:#ffffff;
+    overflow: hidden;
+}
+.header {
+    padding: 5px;
+}
+.header .logo{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    font-family: cambria;
+    background-color: #333;
+    color: #fa8072;
+}
+.header ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.header a{
+    text-decoration: none;
+    color: salmon;
+    padding: 8px;
+}
+.header a:hover{
+    background-color: lightskyblue;
+    color: #ffffff;
+}
+.leftbar{
+    width: 200px;
+    float: left;
+    padding: 10px;
+}
+.leftbar img{
+    width: 60px;
+    height: 60px;
+}
+.leftbar h3{
+    font-weight: bold;
+    font-size: 15px;
+    color: #333;
+}
+.leftbar p{
+    font-size: 13px;
+}
+.main{
+    width: 500px;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+.main h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.main .penulis{
+    font-size: 12px;
+    padding: 3px;
+    margin-top: -5px;
+}
+.main img{
+    width: 250px;
+    height: 250px;
+}
+.main.teks{
+    float: left;
+    background-color: #ffffff;
+    padding: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.main.teks p{
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+}
+table {
+    border-collapse: collapse;
+    width: 75%;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 5px;
+    width: 50px;
+}
+.sidebar{
+    width: 300px;
+    float: right;
+}
+.sidebar h5{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin: 10px 0;
+    color: #453dbd;
+}
+.sidebar b{
+    color: #473da7;
+}
+.sidebar img{
+    width: 200px;
+    height: 200px;
+}
+.footer{
+    background-color: #333;
+    padding: 10px;
+}
+.footer .copy{
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+
+/*clearfix*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
